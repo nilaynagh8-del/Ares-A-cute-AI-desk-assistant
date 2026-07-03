@@ -1,0 +1,15 @@
+# Robot Companion desktop app dependencies
+# Install with:  pip install -r requirements.txt
+google-genai>=1.21.0     # Gemini Live API (gemini-3.1-flash-live-preview)
+sounddevice>=0.4.6       # mic capture + speaker playback, with device selection
+numpy>=1.24
+pyserial>=3.5            # USB link for WiFi provisioning + control
+zeroconf>=0.130          # discover the robot on your WiFi (mDNS)
+plyer>=2.1               # optional: Windows "charged" notification
+Pillow>=10.0             # optional: generate the app icon (gen_icon.py)
+vosk>=0.3.45             # default wake word "Ares" (local, no signup/training)
+pvporcupine>=3.0         # optional wake-word engine (needs Picovoice key)
+customtkinter>=5.2       # modern rounded UI
+pystray>=0.19            # system-tray icon for the background agent
+pycaw>=20230407          # set the Windows PC volume by voice
+comtypes>=1.2            # (pycaw dependency)

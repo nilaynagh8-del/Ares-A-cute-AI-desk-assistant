@@ -5,9 +5,7 @@ Ares listens through its onboard microphone, thinks on your PC with **Gemini Liv
 and speaks back through your computer speakers — while its eyes animate idle,
 listening, and speaking states.
 
-![Ares desk robot with glowing blue eyes](Images/ares-front-desk.jpg)
 
-*(Because the ESP32-S3 has no speaker and no Bluetooth Classic, the PC is the voice.)*
 
 ---
 

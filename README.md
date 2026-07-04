@@ -60,9 +60,10 @@ can open apps, search the web, and remember shortcuts on your behalf.
 |------|------|
 | Seeed XIAO ESP32-S3 **Sense** | MCU + onboard PDM microphone |
 | Seeed Round Display for XIAO | GC9A01 240x240 round IPS + touch |
+| MakerHawk 1000mAh 1S LiPo | Battery power |
 | Custom 3D-printed enclosure | *(STLs coming in [CAD/](CAD/))* |
 
-Full BOM and build photos: [Production/](Production/) *(coming soon)*.
+Full enclosure files and build notes: [CAD/](CAD/) *(coming soon)*.
 
 ---
 
@@ -74,13 +75,12 @@ Full BOM and build photos: [Production/](Production/) *(coming soon)*.
 | [Desktop/](Desktop/) | Python companion app (Gemini Live, wake word, tray agent) |
 | [Docs/](Docs/) | Flashing, architecture, setup |
 | [CAD/](CAD/) | Enclosure STLs *(placeholder)* |
-| [Production/](Production/) | BOM, photos *(placeholder)* |
 
 ---
 
 ## Renders
 
-*(Photos and renders coming soon — add yours in [Production/](Production/))*
+*(Photos and renders coming soon.)*
 
 ---
 

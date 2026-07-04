@@ -105,8 +105,7 @@ That would require code changes; the current release is voice-first.
 
 ## Credits
 
-Built as a desk companion project. README structure inspired by my macropad repo
-[HandyPad](https://github.com/nilaynagh8-del/HandyPad), which was modeled after
+Built as a desk companion project. README structure was modeled after
 [Logan Peterson's SplashPad](https://github.com/SharKingStudios/SplashPad).
 
 Uses [Gemini Live](https://ai.google.dev/), [Vosk](https://alphacephei.com/vosk/),

@@ -5,6 +5,8 @@ Ares listens through its onboard microphone, thinks on your PC with **Gemini Liv
 and speaks back through your computer speakers — while its eyes animate idle,
 listening, and speaking states.
 
+![Ares desk robot with glowing blue eyes](Images/ares-front-desk.jpg)
+
 *(Because the ESP32-S3 has no speaker and no Bluetooth Classic, the PC is the voice.)*
 
 ---
@@ -78,9 +80,15 @@ Full enclosure files and build notes: [CAD/](CAD/) *(coming soon)*.
 
 ---
 
-## Renders
+## Photos
 
-*(Photos and renders coming soon.)*
+| Ares on the desk | Low-light glow |
+|---|---|
+| ![Ares on a desk with blue printed body and animated eyes](Images/ares-front-desk.jpg) | ![Ares glowing in low light](Images/ares-low-light.jpg) |
+
+| Front view | Battery slot | Internal electronics |
+|---|---|---|
+| ![Front view of Ares showing the round display and enclosure](Images/ares-front-closeup.jpg) | ![Battery slot with MakerHawk 1000mAh 1S LiPo installed](Images/ares-battery-slot.jpg) | ![Open Ares enclosure showing Seeed XIAO ESP32-S3 Sense and round display electronics](Images/ares-internals.jpg) |
 
 ---
 

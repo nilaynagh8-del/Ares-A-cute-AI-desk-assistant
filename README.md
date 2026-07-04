@@ -30,6 +30,8 @@ that uses the robot mic and drives the eyes.
 - **Swipe-down menu** on the round display — brightness slider + robot IP
 - **Personality files** — edit `system.md` and `memory.md`; synced to the robot over WiFi
 - **System-tray agent** — optional background auto-connect + hands-free mode
+- **Camera-ready hardware path** — the ESP32-S3 Sense camera is not integrated in
+  this build because the stock ribbon cable is too short for the enclosure layout
 
 ---
 
@@ -61,9 +63,20 @@ can open apps, search the web, and remember shortcuts on your behalf.
 | Seeed XIAO ESP32-S3 **Sense** | MCU + onboard PDM microphone |
 | Seeed Round Display for XIAO | GC9A01 240x240 round IPS + touch |
 | MakerHawk 1000mAh 1S LiPo | Battery power |
-| Custom 3D-printed enclosure | *(STLs coming in [CAD/](CAD/))* |
+| Custom 3D-printed enclosure | Printable files in [CAD/](CAD/) |
 
-Full enclosure files and build notes: [CAD/](CAD/) *(coming soon)*.
+Full enclosure files and build notes: [CAD/](CAD/).
+
+### Camera note
+
+The Seeed XIAO ESP32-S3 Sense includes a camera connector/camera module, but Ares
+does not currently use it. The stock camera ribbon cable is too short for this
+enclosure, so the camera is not routed through the top cutout.
+
+A future build could swap in a compatible camera module or longer ribbon cable,
+route it through the top cutout, and extend the firmware/desktop bridge to send
+camera frames into Gemini Live for visual analysis with `gemini-3.1-flash-live-preview`.
+That would require code changes; the current release is voice-first.
 
 ---
 
@@ -74,7 +87,7 @@ Full enclosure files and build notes: [CAD/](CAD/) *(coming soon)*.
 | [Firmware/](Firmware/) | Arduino sketch for the ESP32 (`RobotEyes.ino`) |
 | [Desktop/](Desktop/) | Python companion app (Gemini Live, wake word, tray agent) |
 | [Docs/](Docs/) | Flashing, architecture, setup |
-| [CAD/](CAD/) | Enclosure STLs *(placeholder)* |
+| [CAD/](CAD/) | STEP assembly and printable enclosure STLs |
 
 ---
 

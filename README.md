@@ -52,7 +52,7 @@ See [Docs/architecture.md](Docs/architecture.md) for ports, pins, and design not
 
 Ares is a small desk character you can talk to. The ESP32-S3 + round display handles
 the face, touch, and microphone. Your PC runs the voice AI (Gemini), plays audio, and
-can open apps, search the web, and remember shortcuts on your behalf.
+can open apps, search the web, and remember shortcuts on your behalf. Press [here](https://drive.google.com/file/d/1ACdh4I4yCxnCxKJ7vzaC96i0bJgCajry/view?usp=sharing) for a demo.
 
 ---
 
